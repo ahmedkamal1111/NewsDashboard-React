@@ -1,0 +1,94 @@
+.SideDrawer {
+
+    position: absolute;
+    padding: 32px 16px;
+    box-sizing: border-box;
+    width: 280px;
+    top:0;
+    left: 0%;
+    height: 100vh;
+    z-index: 100;
+    background-color: #202020;
+    overflow:hidden;
+    transition:width .3s ease;
+    cursor:pointer;
+    box-shadow:4px 7px 10px rgba(0,0,0,.4);
+    transition: .7s;
+ }
+
+
+
+.Open {
+    transform: translateX(0);
+}
+
+.Close {
+    transform: translateX(-100%);
+}
+
+.Logo {
+    height: 11%;
+    margin-bottom: 32px;
+}
+.NavigationItems {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 100%;
+}
+.NavigationItem {
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    
+}
+
+.NavigationItem a {
+
+    position: relative;
+    display:block;
+    margin-top: 5%;
+    padding-left:25px;
+    padding-right:15px;
+    transition:all .5s ease;
+    margin-left:25px;
+    margin-right:10px;
+    text-decoration: none;
+    color:white;
+    font-family: 'roboto';
+    font-weight: 300;
+    font-size: 1.35em;
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active {
+
+    border-radius:2px;
+    background:radial-gradient(circle at 94.02% 88.03%, #54a4ff, transparent 100%);}
+.icon{
+height: 21px;
+    float: left;
+    margin-top: 5.5%;
+    margin-left: 8%;
+    margin-right: 12%;
+
+}
+.hr{
+    width: 100%;
+}
+h2{
+    float: left;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+.arrow{
+    height: 20px;
+    margin-left: 40%;
+    margin-top: 4%;
+    
+}

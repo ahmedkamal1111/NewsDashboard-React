@@ -1,0 +1,86 @@
+.ArticlesDetails {
+    box-shadow: 0 2px 3px #ccc;
+    text-align: center;
+    font-family: "Lato", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    width: 900px !important;
+    height: 450px!important;
+    margin-left: 2%;
+    color: white;
+    text-align: center;
+     margin-top: 8%;
+     background: #667db6; /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+     border: 1px solid #005aa7;
+     border-radius: 15px ;
+     
+ 
+}
+
+
+h1,
+h2,
+h3 {
+  font-weight: 300px;
+  text-transform: uppercase;
+}
+
+.after {
+  display: block;
+  background-color: #e67e22;
+  height: 2px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+  content: " ";
+  border: #e67e22;
+  border-radius: 5px;
+}
+.img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    box-sizing: border-box;
+    height:400px;
+    width: 31%;
+    margin-top: 5.5%;
+    margin-left: 3.5%;
+    margin-bottom: 13%;
+    transform: scale(1.15);
+    display: block;
+    float: left;
+  }
+
+
+.details{
+margin-top:4.5%;
+width: 90%;
+text-align: left;
+font-size: 22px;
+font-weight: 300px;
+margin-left: 5%;
+font-family: Times, serif;
+display: block;
+}
+
+.add{
+  background-image: url('../../assets/images/laptop-showing.png');
+  width: 100%;    
+  min-height: 104.4vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: -6.85%;
+  
+}
+
+
+

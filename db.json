@@ -1,0 +1,113 @@
+{
+  "admins": [
+    {
+      "name": "Ahmed Kamal",
+      "priv": "Supedadmin",
+      "email": "ahmedkamal@gmail.com",
+      "phone": "01113274",
+      "id": 1
+    },
+    {
+      "name": "maha",
+      "priv": "data entry",
+      "email": "maha@gmail.com",
+      "phone": "011188888888",
+      "id": 2
+    },
+    {
+      "name": "omar",
+      "priv": "data entry",
+      "email": "omar@gmail.com",
+      "phone": "0555555555",
+      "id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "Art",
+      "description": "About Music and Artist"
+    },
+    {
+      "title": "Sport",
+      "description": "About Sports",
+      "id": 2
+    },
+    {
+      "title": "Fashion",
+      "description": "the all kinds of fashions",
+      "id": 3
+    },
+    {
+      "title": "Crime",
+      "description": "all about crimes",
+      "id": 4
+    }
+  ],
+  "news": [
+    {
+      "userId": "1",
+      "cat": "Sport",
+      "titel": "World Cup winner",
+      "description": "Egypt won the Men's World Cup 2022 after much effort and perseverance",
+      "activeDateFrom": "25/3/2022",
+      "id": 2
+    },
+    {
+      "userId": "2",
+      "cat": "Fashion",
+      "titel": "The latest fashion",
+      "description": "The latest fashion was represented in the Cairo Film Festival of all stars, both men and women",
+      "activeDateFrom": "21/8/2020",
+      "id": 3
+    },
+    {
+      "userId": "1",
+      "cat": "Art",
+      "titel": "Munir's album",
+      "description": "All the newspapers talked about the crowd’s reactions to Mohamed Mounir’s album, where some described it as a complete work that won the approval of the masses.",
+      "activeDateFrom": "20/8/2020",
+      "id": 4
+    },
+    {
+      "userId": "2",
+      "cat": "Sport",
+      "titel": "Tennis",
+      "description": "The date of the American Tennis Championships will be decided within a month from now",
+      "activeDateFrom": "18/8/2020",
+      "id": 5
+    },
+    {
+      "userId": "2",
+      "cat": "Crime",
+      "titel": "car accident",
+      "description": "Ali died in a car accident by 2 young men due to brake problems",
+      "activeDateFrom": "19/8/2020",
+      "id": 6
+    },
+    {
+      "userId": "3",
+      "cat": "Art",
+      "titel": "Titanic Film",
+      "description": "The movie Titanic surprised us by achieving many records and revenues",
+      "activeDateFrom": "22/8/2020",
+      "id": 7
+    },
+    {
+      "userId": "5",
+      "cat": "Crime",
+      "titel": "the car thief",
+      "description": "The security forces arrested the famous car thief in the Maadi neighborhood after a long chase",
+      "activeDateFrom": "21/8/2020",
+      "id": 8
+    },
+    {
+      "userId": "2",
+      "cat": "Fashion",
+      "titel": "latest summer fashion",
+      "description": "The latest summer fashion covers the shores of Egypt",
+      "activeDateFrom": "23/8/2020",
+      "id": 9
+    }
+  ]
+}

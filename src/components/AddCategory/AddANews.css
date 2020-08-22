@@ -1,0 +1,106 @@
+.AddArticle{
+    margin: auto;
+    text-align: center;
+    width: 70%;
+}
+.atricleback {
+    margin: 20px auto;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #9152f8;
+    background: #9152f8;
+    background: -webkit-linear-gradient(top, #7579ff, #b224ef);
+    background: -o-linear-gradient(top, #7579ff, #b224ef);
+    background: -moz-linear-gradient(top, #7579ff, #b224ef);
+    background: linear-gradient(top, #7579ff, #b224ef);  
+}
+@media (min-width: 600px) {
+    .atricleback {
+        width: 50%;
+        height: 320px;
+        margin-top: 5%;
+        border: 1px solid #9152f8;
+        background: #9152f8;
+        background: -webkit-linear-gradient(top, #7579ff, #b224ef);
+        background: -o-linear-gradient(top, #7579ff, #b224ef);
+        background: -moz-linear-gradient(top, #7579ff, #b224ef);
+        background: linear-gradient(top, #7579ff, #b224ef); 
+        border-radius: 15px;
+    }
+}
+
+.addtext{
+    margin: auto;
+    width: 60%;
+    height: 220px;
+}
+.des{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin: auto;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.desadd{
+    margin: auto;
+    width: 60%;
+    height: 80px;
+    margin-top: 1%;
+}
+.Order
+{
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 21px;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 200px;
+    margin: auto;
+    margin-top: 3%;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    background-color: #0398dd;
+    color: #fff;
+    border: 1px solid #0398dd;
+    width:30%;
+  }
+  .Order:hover,
+  .Order:active {
+  border: 1px solid #11638a;
+  background-color: #11638a;
+}
+  .add{
+    background-image: url('../../assets/images/bg-01 (2).png');
+    width: 100%;    
+    min-height: 103.5vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: -7.05%;
+    
+}
+option{
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+    margin: auto;
+}
+.select{
+    width: 97%;
+    height: 37px;
+    margin-top: 2.55%;
+    border-radius: 10px;
+    text-align: center;
+    color: gray;
+    font: inherit;
+}

@@ -1,0 +1,68 @@
+.Toolbar {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #2b2a2a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+}
+
+.Toolbar nav {
+    height: 100%;
+}
+
+.Logo {
+    margin: auto;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.enicon{
+    height: 23px;
+    margin-bottom: 2%;
+}.aricon{
+    height: 18px;
+    width: 90%;
+    margin-bottom: 2%;
+}
+.toolbarFork{
+    color: #54a4ff;
+    margin-right: 47.5%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.NavigationItem {
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    
+}
+.NavigationItem a {
+
+    position: relative; 
+    transition:all .5s ease;
+    margin-left:25px;
+    text-decoration: none;
+    color:white;
+    font-family: 'roboto';
+    font-weight: 300;
+    font-size: 1.55em;
+    padding: 6px;
+    border:   .5px solid  rgb(255, 255, 255);
+    height: 100%;
+    border-radius:2.5px;    
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active {
+    color:#54a4ff;
+        border: unset;
+}
